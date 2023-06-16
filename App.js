@@ -33,7 +33,7 @@ export default function App() {
         <Text style={{marginLeft: 25, marginRight: 25, color: "white", fontSize: 30}}>{count}</Text>
         <Button title="-" onPress={() => setCount(count - 1)} />
       </View>
-      <Button title={offline ? "go online (ofline rn)" : "go offline (online rn)"} onPress={() => setOffline(!offline)} />
+      <Button title={offline ? "go online (offline rn)" : "go offline (online rn)"} onPress={() => setOffline(!offline)} />
     </View>
   );
 }
